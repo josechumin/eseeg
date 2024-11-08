@@ -1,0 +1,346 @@
+
+<!-- saved from url=(0055)file:///C:/Users/Admin/Downloads/FGuuqCqZKPiDljDd1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href=".">--><base href="."><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ESEEG Guatemala</title><style>
+:root {
+    --emerald: #34C759;
+    --emerald-dark: #248A3D;
+    --emerald-light: #E1F8E7;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, var(--emerald-light), #ffffff);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rotating-leaf {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    animation: rotate 4s linear infinite;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+h1 {
+    color: var(--emerald-dark);
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    font-family: -apple-system, "SF Pro Display", sans-serif;
+}
+
+h2 {
+    color: var(--emerald-dark);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: -apple-system, "SF Pro Text", sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-size: 16px;
+    background: #F9F9F9;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--emerald);
+    background: white;
+    box-shadow: 0 0 0 3px rgba(52, 199, 89, 0.1);
+}
+
+button {
+    background-color: var(--emerald);
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--emerald-dark);
+    transform: translateY(-1px);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 85%;
+    max-height: 85%;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.database-container {
+    display: none;
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.visitor-counter {
+    text-align: center;
+    margin-top: 25px;
+    color: var(--emerald-dark);
+    font-size: 14px;
+}
+
+.certification {
+    margin-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+
+.years-experience {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--emerald-dark);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#sadEmoji {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.vendor-name {
+    color: var(--emerald-dark);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.admin-section {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #f5f5f7;
+    border-radius: 12px;
+}
+
+.admin-section input, .admin-section textarea {
+    margin-bottom: 10px;
+}
+
+.admin-section button {
+    margin: 5px;
+    padding: 12px;
+    font-size: 14px;
+}
+</style></head><body>
+
+<div class="container">
+    <div class="logo-container">
+        <svg class="rotating-leaf" viewBox="0 0 100 100">
+            <path d="M50,10 C70,25 90,40 50,90 C10,40 30,25 50,10" fill="var(--emerald-dark)"></path>
+        </svg>
+        <h1>Eco Sistemas Energéticos Ecológicos Guatemala</h1>
+        <h2 style="font-size: 16px; opacity: 0.8;">ESEEG</h2>
+    </div>
+    <h2>Formulario de Crédito para Sistema Solar</h2>
+
+    <form id="solarForm">
+        <input type="text" placeholder="Ingresa nombres" required="">
+        <input type="text" placeholder="Ingresa apellidos" required="">
+        <input type="tel" placeholder="Número telefónico" required="">
+        <input type="text" placeholder="Dirección" required="">
+        <input type="number" placeholder="Consumo eléctrico mensual (Quetzales)" required="">
+        <button type="submit">Presiona aquí - Calcular Ahorro Eléctrico</button>
+    </form>
+
+    <button id="adminButton">Registros Diarios y Configuración</button>
+    <div class="visitor-counter">
+        Visitantes hoy: 21,356
+    </div>
+    <div class="years-experience">
+        ¡Más de 7 años de experiencia!
+    </div>
+</div>
+
+<div id="resultModal" class="modal">
+    <div class="modal-content">
+        <h3>Resultado del Cálculo</h3>
+        <div id="sadEmoji">😢</div>
+        <p>Su consumo actual es elevado. ¡Podemos ayudarle a ahorrar!</p>
+        <div id="calculationResult"></div>
+        <div class="vendor-name">Vendedor: <span id="currentVendor">Bruce Borja</span></div>
+        <a id="whatsappLink" href="https://wa.me/+50250109285" target="_blank">
+            <button>Presiona aquí - Compra tu Sistema Solar Hoy (¡Crédito en 24 horas!)</button>
+        </a>
+        <div class="certification">
+            <h4>Certificaciones:</h4>
+            <p>✓ Garantía de 25 años en paneles solares</p>
+            <p>✓ Certificación Europea</p>
+            <p>✓ Certificación Asiática</p>
+            <p>✓ Más de 7 años en el mercado</p>
+        </div>
+    </div>
+</div>
+
+<div id="database" class="database-container"></div>
+
+<script>
+let database = [];
+let currentVendor = {
+    name: 'Bruce Borja',
+    phone: '50109285',
+    message: 'hola señor borja, deseo comprar un sistema solar ongrid, gracias'
+};
+
+document.getElementById('solarForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const inputs = this.getElementsByTagName('input');
+    const consumption = parseFloat(inputs[4].value);
+    const savings = consumption * 0.6;
+    
+    const data = {
+        nombre: inputs[0].value,
+        apellido: inputs[1].value,
+        telefono: inputs[2].value,
+        direccion: inputs[3].value,
+        consumo: consumption,
+        ahorro: savings,
+        fecha: new Date().toLocaleString()
+    };
+    
+    database.push(data);
+    
+    document.getElementById('calculationResult').innerHTML = `
+        <p>Consumo actual: Q${consumption.toFixed(2)}</p>
+        <p>Ahorro mensual estimado: Q${savings.toFixed(2)}</p>
+        <p>Ahorro anual aproximado: Q${(savings * 12).toFixed(2)}</p>
+    `;
+    
+    document.getElementById('resultModal').style.display = 'flex';
+    updateWhatsappLink();
+});
+
+function updateWhatsappLink() {
+    const link = `https://wa.me/+502${currentVendor.phone}?text=${encodeURIComponent(currentVendor.message)}`;
+    document.getElementById('whatsappLink').href = link;
+}
+
+document.getElementById('adminButton').addEventListener('click', function() {
+    const code = prompt('Ingrese el código de administrador:');
+    if(code === '56152529') {
+        const dbContainer = document.getElementById('database');
+        dbContainer.style.display = 'block';
+        
+        const vendorConfig = `
+            <div class="admin-section">
+                <h3>Configuración del Vendedor</h3>
+                <p>Vendedor actual: ${currentVendor.name}</p>
+                <p>Número actual: ${currentVendor.phone}</p>
+                <p>Mensaje actual: ${currentVendor.message}</p>
+                <input type="text" id="newVendorName" placeholder="Nuevo nombre de vendedor">
+                <input type="text" id="newVendorPhone" placeholder="Nuevo número">
+                <textarea id="newVendorMessage" placeholder="Nuevo mensaje predeterminado" style="width: 100%; margin-bottom: 10px;">${currentVendor.message}</textarea>
+                <button onclick="updateVendor()">Actualizar Vendedor</button>
+            </div>
+        `;
+        
+        dbContainer.innerHTML = vendorConfig + `
+            <h3>Base de Datos de Solicitudes</h3>
+            <table border="1" style="width: 100%">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Teléfono</th>
+                    <th>Dirección</th>
+                    <th>Consumo (Q)</th>
+                    <th>Ahorro (Q)</th>
+                </tr>
+                ${database.map(entry => `
+                    <tr>
+                        <td>${entry.fecha}</td>
+                        <td>${entry.nombre}</td>
+                        <td>${entry.apellido}</td>
+                        <td>${entry.telefono}</td>
+                        <td>${entry.direccion}</td>
+                        <td>${entry.consumo}</td>
+                        <td>${entry.ahorro}</td>
+                    </tr>
+                `).join('')}
+            </table>
+        `;
+    } else {
+        alert('Código incorrecto');
+    }
+});
+
+function updateVendor() {
+    const newName = document.getElementById('newVendorName').value;
+    const newPhone = document.getElementById('newVendorPhone').value;
+    const newMessage = document.getElementById('newVendorMessage').value;
+    
+    if(newName) currentVendor.name = newName;
+    if(newPhone) currentVendor.phone = newPhone;
+    if(newMessage) currentVendor.message = newMessage;
+    
+    document.getElementById('currentVendor').textContent = currentVendor.name;
+    updateWhatsappLink();
+    document.getElementById('adminButton').click();
+}
+
+document.getElementById('resultModal').addEventListener('click', function(e) {
+    if(e.target === this) {
+        this.style.display = 'none';
+    }
+});
+</script></body></html>
